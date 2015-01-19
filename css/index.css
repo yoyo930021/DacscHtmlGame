@@ -1,0 +1,75 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+html{
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	min-width: 100%;
+	overflow:hidden;
+}
+body {
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	min-width: 100%;
+	overflow: hidden;
+}
+body:after {
+content: url(../img/back1.jpg) url(../img/back2.jpg) url(../img/back3.jpg) url(../img/back4.jpg) url(../img/back5.jpg);
+display: none;
+}
+#mainback{
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	min-width: 100%;
+	MARGIN: 0px auto;
+	z-index: 1;
+	overflow:hidden;
+}
+.backimg{
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	min-width: 100%;
+}
+#title {
+	position: absolute;
+	top: 3%;
+	left: 5%;
+	z-index: 2;
+}
+#groupbutton {
+	position: absolute;
+	bottom: 20%;
+	right: 0%;
+	width: 80%;
+	font-size: 36px;
+	text-align: right;
+	height: 12%;
+	background-image: url(../img/Bar.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 2;
+}
+.top1 {
+	position: relative;
+	top: 40%;
+	margin-right: 5%;
+}
+@media (max-width: 767px) {
+	body {
+		background-image: url(../img/backmobile.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	html {
+		height: 100%;
+		min-height: 100%;
+	}
+	body {
+		min-height: 100%;
+	}
+}
