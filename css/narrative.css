@@ -12,24 +12,10 @@ body {
 	min-width: 100%;
     margin: 0;
 }
-.bg{
-    min-height: 100%;
-    min-width: 100%;
+#bg{
     height: 100%;
     width: 100%;
-}
-#pg1{
-    background-color: yellow;
-}
-#pg2{
-    background-color: blue;
-}
-#pg3{
-    background-color: red;
-}
-#pg4{
-    background-color: green;
-}
-#pg5{
-    background-color: purple;
+    min-height: 100%;
+	min-width: 100%;
+    margin: 0;
 }
