@@ -19,3 +19,75 @@ body {
 	min-width: 100%;
     margin: 0;
 }
+
+#header {
+    position: fixed;
+    top:0px;
+    height: 8%;
+    width: 100%;
+    z-index: 5;
+}
+
+.headerbtn {
+    color: black;
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+}
+.headerbtn:hover {
+	cursor: pointer;
+	text-shadow:0px 0px 8px #f00;
+	font-family:華康魏碑體,微軟正黑體;
+}
+.active{
+    text-shadow:0px 0px 8px #f00;
+	font-family:華康魏碑體,微軟正黑體;
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+	min-width: 100%;
+    margin: 0;
+    z-index: 1;
+}
+
+#te1 {
+    background-color: yellow;
+}
+
+#te2 {
+    background-color: blue;
+}
+
+#te3 {
+    background-color: red;
+}
+
+#te4 {
+    background-color: pink;
+}
+
+.content {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background-color:#12c4db;
+}
+
+
+
+#btngrp {
+    position: fixed;
+    top:0px;
+    right:0px;
+}
+
+.titletext {
+    padding: 10px;
+    margin-right: 10px;
+    font-weight:bolder;
+}
