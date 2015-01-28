@@ -1,6 +1,7 @@
 var s = 0;
 var t = 0;
 var y = 0;
+var b = 0;
 $(document).ready(function () {
     $(window).scroll(function () {
         if (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase())) {} else {
@@ -22,40 +23,49 @@ $(document).ready(function () {
                 }
             }
         }
-
-        var A = $(this).scrollTop();
-        if (A < document.body.clientHeight * 1) {
-            $("#hdbtn1").css("text-shadow", "0px 0px 8px #f00");
-            $("#hdbtn2").css("text-shadow", "");
-            $("#hdbtn3").css("text-shadow", "");
-            $("#hdbtn4").css("text-shadow", "");
-        } else if (A < document.body.clientHeight * 2) {
-            $("#hdbtn1").css("text-shadow", "");
-            $("#hdbtn2").css("text-shadow", "0px 0px 8px #f00");
-            $("#hdbtn3").css("text-shadow", "");
-            $("#hdbtn4").css("text-shadow", "");
-        } else if (A < document.body.clientHeight * 3) {
-            $("#hdbtn1").css("text-shadow", "");
-            $("#hdbtn2").css("text-shadow", "");
-            $("#hdbtn3").css("text-shadow", "0px 0px 8px #f00");
-            $("#hdbtn4").css("text-shadow", "");
-        } else if (A < document.body.clientHeight * 4) {
-            $("#hdbtn1").css("text-shadow", "");
-            $("#hdbtn2").css("text-shadow", "");
-            $("#hdbtn3").css("text-shadow", "");
-            $("#hdbtn4").css("text-shadow", "0px 0px 8px #f00");
+        if (b == 0) {
+            var A = $(this).scrollTop();
+            if (A < document.body.clientHeight * 1) {
+                $("#hdbtn1").css("text-shadow", "0px 0px 8px #f00");
+                $("#hdbtn2").css("text-shadow", "");
+                $("#hdbtn3").css("text-shadow", "");
+                $("#hdbtn4").css("text-shadow", "");
+            } else if (A < document.body.clientHeight * 2) {
+                $("#hdbtn1").css("text-shadow", "");
+                $("#hdbtn2").css("text-shadow", "0px 0px 8px #f00");
+                $("#hdbtn3").css("text-shadow", "");
+                $("#hdbtn4").css("text-shadow", "");
+            } else if (A < document.body.clientHeight * 3) {
+                $("#hdbtn1").css("text-shadow", "");
+                $("#hdbtn2").css("text-shadow", "");
+                $("#hdbtn3").css("text-shadow", "0px 0px 8px #f00");
+                $("#hdbtn4").css("text-shadow", "");
+            } else if (A < document.body.clientHeight * 4) {
+                $("#hdbtn1").css("text-shadow", "");
+                $("#hdbtn2").css("text-shadow", "");
+                $("#hdbtn3").css("text-shadow", "");
+                $("#hdbtn4").css("text-shadow", "0px 0px 8px #f00");
+            }
         }
     });
-    $("#hdbtn4").click(function (){
+    $("#hdbtn4").click(function () {
+        b = 1;
         $(window).scrollTop(document.body.clientHeight * 3);
+        b = 0;
     });
-    $("#hdbtn3").click(function (){
+    $("#hdbtn3").click(function () {
+        b = 1;
         $(window).scrollTop(document.body.clientHeight * 2);
+        b = 0;
     });
-    $("#hdbtn2").click(function (){
+    $("#hdbtn2").click(function () {
+        b = 1;
         $(window).scrollTop(document.body.clientHeight * 1);
+        b = 0;
     });
-    $("#hdbtn1").click(function (){
+    $("#hdbtn1").click(function () {
+        b = 1;
         $(window).scrollTop(document.body.clientHeight * 0);
+        b = 0;
     });
 });
