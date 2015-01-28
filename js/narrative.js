@@ -5,7 +5,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
         if (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase())) {} else {
             y++;
-            if (y > 2) {
+            if (y > 1) {
                 if ($(this).scrollTop() > t) {
                     s++;
                     $(this).scrollTop(document.body.clientHeight * s);
