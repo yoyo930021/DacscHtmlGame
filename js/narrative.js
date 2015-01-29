@@ -50,22 +50,30 @@ $(document).ready(function () {
     });
     $("#hdbtn4").click(function () {
         b = 1;
-        $(window).scrollTop(document.body.clientHeight * 3);
+        alert(document.body.clientHeight * 3);
+        var temp=document.body.clientHeight * 3;
+        $(window).scrollTop(temp);
         b = 0;
     });
     $("#hdbtn3").click(function () {
         b = 1;
-        $(window).scrollTop(document.body.clientHeight * 2);
+        alert(document.body.clientHeight * 2);
+        var temp=document.body.clientHeight * 2;
+        $(window).scrollTop(temp);
         b = 0;
     });
     $("#hdbtn2").click(function () {
         b = 1;
-        $(window).scrollTop(document.body.clientHeight * 1);
+        alert(document.body.clientHeight * 1);
+        var temp=document.body.clientHeight * 1;
+        $(window).scrollTop(temp);
         b = 0;
     });
     $("#hdbtn1").click(function () {
         b = 1;
-        $(window).scrollTop(document.body.clientHeight * 0);
+        alert(document.body.clientHeight * 0);
+        var temp=document.body.clientHeight * 0;
+        $(window).scrollTop(temp);
         b = 0;
     });
 });
