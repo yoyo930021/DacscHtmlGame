@@ -25,7 +25,7 @@ body {
     top:0px;
     height: 8%;
     width: 100%;
-    z-index: 5;
+    z-index: 11;
 }
 
 .headerbtn {
@@ -43,43 +43,6 @@ body {
     text-shadow:0px 0px 8px #f00;
 	font-family:華康魏碑體,微軟正黑體;
 }
-
-.text {
-    height: 100%;
-    width: 100%;
-    min-height: 100%;
-	min-width: 100%;
-    margin: 0;
-    z-index: 1;
-}
-
-#te1 {
-    background-color: yellow;
-}
-
-#te2 {
-    background-color: blue;
-}
-
-#te3 {
-    background-color: red;
-}
-
-#te4 {
-    background-color: pink;
-}
-
-.content {
-    position: relative;
-    top: 10%;
-    left: 10%;
-    width: 80%;
-    height: 80%;
-    background-color:#12c4db;
-}
-
-
-
 #btngrp {
     position: fixed;
     top:0px;
@@ -90,4 +53,79 @@ body {
     padding: 10px;
     margin-right: 10px;
     font-weight:bolder;
+}
+
+#baimg1 {
+    background-image: url(../img/back1.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#baimg2 {
+    background-image: url(../img/back2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#baimg3 {
+    background-image: url(../img/back3.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#baimg4 {
+    background-image: url(../img/back4.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#baimg5 {
+    background-image: url(../img/back5.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.backimg{
+	width: 100%;
+    height: 100%;
+    min-height: 100%;
+	min-width: 100%;
+    MARGIN: 0px auto;
+}
+
+#mainback{
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	min-width: 100%;
+	MARGIN: 0px auto;
+	z-index: 1;
+	overflow:hidden;
+}
+#content {
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 380%;
+    width: 80%;
+    z-index: 10;
+    color:white;
+}
+#content legend{
+    font-size: 30px;
+    color:white;
+    display: block;
+    width: 100%;
+    padding: 0;
+    font-size: 21px;
+    line-height: 40px;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.text {
+    color: white;
+    width:100%;
+    height: 23.5%;
 }
