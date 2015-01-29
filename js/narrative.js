@@ -4,26 +4,7 @@ var y = 0;
 var b = 0;
 $(document).ready(function () {
     $(window).scroll(function () {
-        if (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase())) {} else {
-            y++;
-            if (y > 1) {
-                if ($(this).scrollTop() > t) {
-                    s++;
-                    $(this).scrollTop(document.body.clientHeight * s);
-                    t = $(this).scrollTop();
-                    y = 0;
-                } else {
-                    s--;
-                    if (s > 3) {
-                        s--;
-                    }
-                    $(this).scrollTop(document.body.clientHeight * s);
-                    t = $(this).scrollTop();
-                    y = 0;
-                }
-            }
-        }
-        $("#mainback").css("top",document.body.clientHeight * s);
+            $("#mainback").css("top",$(window).scrollTop());
         if (b == 0) {
             var A = $(this).scrollTop();
             if (A < document.body.clientHeight * 1) {
