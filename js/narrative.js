@@ -30,6 +30,7 @@ $(document).ready(function () {
             }
         }
     });
+    /*
     $("#hdbtn4").click(function () {
         b = 1;
         //alert(document.body.clientHeight * 3);
@@ -57,7 +58,7 @@ $(document).ready(function () {
         var temp = document.body.clientHeight * 0;
         $(window).scrollTop(temp);
         b = 0;
-    });
+    });*/
     $('#mainback').cycle({
         fx: 'fade',
         timeout: 5000,

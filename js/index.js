@@ -4,7 +4,7 @@ $(document).ready(function () {
 	$("#groupbutton").hide();
 	$("#grtop").hide();
 	$("#title").hide();
-	var $ofweidht = innerWidth;
+	//var $ofweidht = innerWidth;
 	/*if ($ofweidht <= 767) {
 		$("#mainback").hide();
 	} else {*/
