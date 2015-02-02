@@ -1,0 +1,28 @@
+
+.block {
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    margin: 0px auto;
+    font-size: 100px;
+}
+
+#block {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#left {
+    height: 100%;
+    width: 20%;
+    display: inline;
+}
+
+#main {
+    height: 100%;
+    width: 79%;
+    display: inline;
+}
