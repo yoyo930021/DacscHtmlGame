@@ -105,3 +105,8 @@ display: none;
     background-size:cover;
     background-position: center center;
 }
+
+#wtop {
+    position: relative;
+    height: 40px;
+}
