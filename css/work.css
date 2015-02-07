@@ -20,6 +20,21 @@ a {
     text-align: center;
 }
 
+@media (max-width: 767px) {
+	body {
+		/*background-image: url(../img/backmobile.jpg);
+		background-size:cover;
+		background-repeat: no-repeat;*/
+	}
+	html {
+		height: 100%;
+		min-height: 100%;
+	}
+	body {
+		min-height: 100%;
+	}
+}
+
 #mainbutton {
     position: absolute;
     width: 100%;
