@@ -20,76 +20,19 @@ a {
     text-align: center;
 }
 
- ul.mmenu li {
-    position: relative;
-    float: right;
-    width: 150px;
-}
-
-
-ul.mmenu li a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: block;
-    background: rgba(0%,0%,100%,0.25);
-    color: #FFF;
-}
-
-ul.mmenu > li > a {
-    border-bottom: 1px solid #CCC;
-    border-left: 1px solid #CCC;
-}
-
-ul.mmenu > li > a:hover {
-    color: #666;
-    background: #DDD
-}
-
-ul.mmenu ul {
-    display: none;
-    float: right;
-    position: absolute;
-    right: 0;
-    margin: 0;
-}
-
-ul.mmenu li:hover > ul {
-    display: block;
-}
-
-ul.mmenu ul li {
-    border-bottom: 1px solid #DDD;
-    width: 150px;
-}
-
-ul.mmenu ul li:last-child {
-    border-bottom: none;
-}
-
-ul.mmenu ul a {
-    width: 150px;
-    color: #666;
-    background: #EEE;
-}
-
-#tback a:hover {
-    color: red;
-    font-weight: 900;
-}
-
-#mainmenu {
+#mainbutton {
     position: absolute;
     width: 100%;
-    float: right;
     z-index: 5;
-    height: 37px;
+    height: 60px;
+    right: 50px;
 }
 
 #titlephoto {
     position: absolute;
     z-index: 3;
-    left: 30px;
-    top: 10px;
+    left: 80px;
+    top: 0px;
 }
 
 #baimg1 {
@@ -122,7 +65,7 @@ ul.mmenu ul a {
     background-position: center center;
 }
 
-.backimg{
+.backimg {
 	width: 100%;
     height: 100%;
     min-height: 100%;
@@ -130,7 +73,7 @@ ul.mmenu ul a {
     MARGIN: 0px auto;
 }
 
-#mainback{
+#mainback {
 	height: 100%;
 	width: 100%;
 	min-height: 100%;
@@ -142,7 +85,68 @@ ul.mmenu ul a {
 
 #extramenu {
     position: absolute;
-    width: 100%;
-    height: 400px;
-    top: 100px;
+    display: block;
+    width: 60%;
+    left: 20%;
+    right: 20%;
+    height: 300px;
+    top: 367px;
+    background: rgba(15%,15%,15%,0.8);
+    z-index: 6;
+}
+
+
+.extramenu {
+    position: absolute;
+    height: 300px;
+    width: 60%;
+    left: 20%;
+    right: 20%;
+    background: rgba(15%,15%,15%,0.8);
+
+
+}
+
+.extramenu a {
+    font-size: 50px;
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 70px;
+    border-style: solid;
+    border-bottom-width: 1px;
+    color: white;
+    text-align: left;
+    padding-top: 15px;
+    font-family: 微軟正黑體;
+}
+
+.extramenu a:hover {
+    background: rgba(30%,30%,30%,0.5);
+}
+
+.extramenu a:last-child{
+    border-bottom: none;
+}
+
+.mainbutton {
+    position: relative;
+    display: block;
+    float: right;
+    height: 40px;
+    width: 120px;
+    top: 20px;
+    margin-left: 10px;
+}
+
+.mainbutton a {
+    font-size: 25px;
+    font-family: 微軟正黑體;
+    font-weight: 900;
+    color: black;
+
+}
+.mainbutton a:hover {
+    color: red;
 }
