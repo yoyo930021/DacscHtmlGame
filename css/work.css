@@ -99,10 +99,8 @@ a {
 .extramenu {
     position: absolute;
     height: 300px;
-    width: 60%;
-    left: 20%;
-    right: 20%;
-    background: rgba(15%,15%,15%,0.8);
+    width: 100%;
+    background: rgba(15%,15%,15%,0.5);
 
 
 }
