@@ -117,7 +117,7 @@ a {
     color: white;
     text-align: left;
     padding-top: 15px;
-    font-family: 微軟正黑體;
+    font-family: 華康魏碑體,微軟正黑體;
 }
 
 .extramenu a:hover {
@@ -140,7 +140,7 @@ a {
 
 .mainbutton a {
     font-size: 25px;
-    font-family: 微軟正黑體;
+    font-family: 華康魏碑體,微軟正黑體;
     font-weight: 900;
     color: black;
 
