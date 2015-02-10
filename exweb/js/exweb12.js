@@ -4,6 +4,8 @@ var mt=500;
 var ext= 1000;
 
 $("#mbody").ready(function(){
+    con1_1=0;
+    con1_2=0;
     $("#extramenu").hide();
     $("#content1_1").hide();
     $("#content1_2").hide();

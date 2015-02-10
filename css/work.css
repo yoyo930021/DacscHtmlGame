@@ -48,7 +48,6 @@ ul,il {
 #mainmenu {
     position: absolute;
     top: 0px;
-    right: 1.3%;
     width: 100%;
     z-index: 100;
     height: 50px;
@@ -136,8 +135,11 @@ ul.mmenu li a {
 }
 
 ul.mmenu > li > a {
-    border-bottom: 1px solid #CCC;
     border-left: 1px solid #CCC;
+}
+
+ul.mmenu > li > a:first-child {
+    border-right: 1px solid #CCC;
 }
 
 ul.mmenu > li > a:hover {
