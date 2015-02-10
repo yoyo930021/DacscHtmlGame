@@ -1,76 +1,35 @@
 $(document).ready(function(){
     $(window).scroll(function () {
         $("#mainback").css("top",$(window).scrollTop());
-        });
-
-    $("#emenu1").hide();
-    $("#emenu2").hide();
-    $("#emenu3").hide();
-    $("#emenu4").hide();
-    $("#emenu5").hide();
-    $("#emenu1_1_1").hide();
-
-    var sec=500;
-    var eme1_1=0;
-
-    $("#mbutton1").click(function(){
-        $("#emenu1").slideDown(sec);
-        $("#emenu2").hide();
-        $("#emenu3").hide();
-        $("#emenu4").hide();
-        $("#emenu5").hide();
+    });
+    $("#mmenu1").click(function(){
+        $mmenu1='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="../exweb/ex01.htm"></iframe>';
+          $("#exweb").html($mmenu1);
+          return false;
     });
 
-    $("#emenu1_1").click(function(){
-        if(eme1_1==0)
-        {
-            $("#emenu1_1_1").slideDown(sec);
-            eme1_1=1;
-        }
-        else
-        {
-            $("#emenu1_1_1").slideUp(sec);
-            eme1_1=0;
-        }
+    $("#mmenu2").click(function(){
+        $mmenu2='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="../exweb/ex02.htm"></iframe>';
+          $("#exweb").html($mmenu2);
+          return false;
     });
 
-    $("#mbutton2").click(function(){
-        $("#emenu1_1_1").hide();
-        $("#emenu1").hide();
-        $("#emenu2").slideDown(sec);
-        $("#emenu3").hide();
-        $("#emenu4").hide();
-        $("#emenu5").hide();
-        eme1_1=0;
+    $("#mmenu3").click(function(){
+        $mmenu3='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="../exweb/ex03.htm"></iframe>';
+          $("#exweb").html($mmenu3);
+          return false;
     });
 
-    $("#mbutton3").click(function(){
-        $("#emenu1").hide();
-        $("#emenu1_1_1").hide();
-        $("#emenu2").hide();
-        $("#emenu3").slideDown(sec);
-        $("#emenu4").hide();
-        $("#emenu5").hide();
-        eme1_1=0;
+    $("#mmenu4").click(function(){
+        $mmenu4='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="../exweb/ex04.htm"></iframe>';
+          $("#exweb").html($mmenu4);
+          return false;
     });
 
-    $("#mbutton4").click(function(){
-        $("#emenu1").hide();
-        $("#emenu2").hide();
-        $("#emenu3").hide();
-        $("#emenu4").slideDown(sec);
-        $("#emenu5").hide();
-        eme1_1=0;
-    });
-
-    $("#mbutton5").click(function(){
-        $("#emenu1").hide();
-        $("#emenu1_1_1").hide();
-        $("#emenu2").hide();
-        $("#emenu3").hide();
-        $("#emenu4").hide();
-        $("#emenu5").slideDown(sec);
-        eme1_1=0;
+    $("#mmenu5").click(function(){
+        $mmenu5='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="../exweb/ex05.htm"></iframe>';
+          $("#exweb").html($mmenu5);
+          return false;
     });
 
     $('#mainback').cycle({
@@ -78,5 +37,10 @@ $(document).ready(function(){
         timeout: 5000,
         random: 1
     });
+
+
+
+
+
 
 });
