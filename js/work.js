@@ -1,28 +1,16 @@
 $(document).ready(function(){
-    $(window).scroll(function () {
+    /*$(window).scroll(function () {
         $("#mainback").css("top",$(window).scrollTop());
-    });
-    $("#mmenu1_1").click(function(){
-        $mmenu1_1='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex11.htm"></iframe>';
-          $("#exweb").html($mmenu1_1);
+    });*/
+    $("#mmenu1").click(function(){
+        $mmenu1='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex1.htm"></iframe>';
+          $("#exweb").html($mmenu1);
           return false;
     });
 
-    $("#mmenu1_2").click(function(){
-        $mmenu1_2='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex12.htm"></iframe>';
-          $("#exweb").html($mmenu1_2);
-          return false;
-    });
-
-    $("#mmenu2_1").click(function(){
-        $mmenu2_1='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex21.htm"></iframe>';
-          $("#exweb").html($mmenu2_1);
-          return false;
-    });
-
-    $("#mmenu2_2").click(function(){
-        $mmenu2_2='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex22.htm"></iframe>';
-          $("#exweb").html($mmenu2_2);
+    $("#mmenu2").click(function(){
+        $mmenu2='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex2.htm"></iframe>';
+          $("#exweb").html($mmenu2);
           return false;
     });
 
@@ -38,15 +26,69 @@ $(document).ready(function(){
           return false;
     });
 
-    $("#mmenu4").click(function(){
-        $mmenu4='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex4.htm"></iframe>';
-          $("#exweb").html($mmenu4);
+    $("#mmenu3_3").click(function(){
+        $mmenu3_3='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex33.htm"></iframe>';
+          $("#exweb").html($mmenu3_3);
           return false;
     });
 
-    $("#mmenu5").click(function(){
-        $mmenu5='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex5.htm"></iframe>';
-          $("#exweb").html($mmenu5);
+    $("#mmenu3_4").click(function(){
+        $mmenu3_4='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex34.htm"></iframe>';
+          $("#exweb").html($mmenu3_4);
+          return false;
+    });
+
+    $("#mmenu4_1").click(function(){
+        $mmenu4_1='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex41.htm"></iframe>';
+          $("#exweb").html($mmenu4_1);
+          return false;
+    });
+
+    $("#mmenu4_2").click(function(){
+        $mmenu4_2='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex42.htm"></iframe>';
+          $("#exweb").html($mmenu4_2);
+          return false;
+    });
+
+    $("#mmenu5_1").click(function(){
+        $mmenu5_1='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex51.htm"></iframe>';
+          $("#exweb").html($mmenu5_1);
+          return false;
+    });
+
+    $("#mmenu5_2").click(function(){
+        $mmenu5_2='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex52.htm"></iframe>';
+          $("#exweb").html($mmenu5_2);
+          return false;
+    });
+
+    $("#mmenu5_3").click(function(){
+        $mmenu5_3='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex53.htm"></iframe>';
+          $("#exweb").html($mmenu5_3);
+          return false;
+    });
+
+    $("#mmenu5_4").click(function(){
+        $mmenu5_4='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex54.htm"></iframe>';
+          $("#exweb").html($mmenu5_4);
+          return false;
+    });
+
+    $("#mmenu6_1").click(function(){
+        $mmenu6_1='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex61.htm"></iframe>';
+          $("#exweb").html($mmenu6_1);
+          return false;
+    });
+
+    $("#mmenu6_2").click(function(){
+        $mmenu6_2='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex62.htm"></iframe>';
+          $("#exweb").html($mmenu6_2);
+          return false;
+    });
+
+    $("#mmenu6_3").click(function(){
+        $mmenu6_3='<iframe width="100%" height="100%" scrolling="yes" frameborder="0" src="exweb/ex63.htm"></iframe>';
+          $("#exweb").html($mmenu6_3);
           return false;
     });
 
