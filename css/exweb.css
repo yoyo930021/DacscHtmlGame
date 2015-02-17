@@ -67,7 +67,7 @@ ul,li {
 #exmenutitle {
     position: relative;
     width: 70%;
-    height: 125px;
+    height: 150px;
     margin-right: 15%;
     margin-left: 15%;
     margin-bottom: 70px;
@@ -90,7 +90,6 @@ ul.extramenu {
 ul.extramenu li {
     position: relative;
     display: block;
-
     left: 5%;
 }
 
@@ -99,7 +98,8 @@ ul.extramenu li a {
     display: block;
     width: 90%;
     text-align: left;
-    height: 40px;
+    height: 30px;
+    padding-top: 30px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
@@ -137,10 +137,10 @@ ul.extramenu li ul li  {
 
 .bg {
     z-index: 200;
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 15%;
-    top: 450px;
+    top: 0  px;
 }
 
 #lbg {
@@ -279,11 +279,15 @@ ul.mmenu ul a:hover {
 #space {
     position: relative;
     top: 0px;
-    height: 150px;
+    height: 250px;
     width: 100%;
 }
 
 #header {
     position: fixed;
     top: 0px;
+}
+
+.tsize20 {
+    font-size: 20px;
 }

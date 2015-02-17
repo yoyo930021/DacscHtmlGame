@@ -17,7 +17,7 @@ body {
 	overflow: hidden;
 }
 body:after {
-content: url(../img/back1.jpg) url(../img/back2.jpg) url(../img/back3.jpg) url(../img/back4.jpg) url(../img/back5.jpg);
+content: url(../img/1.jpg) url(../img/2.jpg) url(../img/3.jpg) url(../img/4.jpg) url(../img/5.jpg);
 display: none;
 }
 #mainback{
@@ -77,31 +77,31 @@ display: none;
 }
 
 #baimg1 {
-    background-image: url(../img/back1.jpg);
+    background-image: url(../img/1.jpg);
     background-size:cover;
     background-position: center center;
 }
 
 #baimg2 {
-    background-image: url(../img/back2.jpg);
+    background-image: url(../img/2.jpg);
     background-size:cover;
     background-position: center center;
 }
 
 #baimg3 {
-    background-image: url(../img/back3.jpg);
+    background-image: url(../img/3.jpg);
     background-size:cover;
     background-position: center center;
 }
 
 #baimg4 {
-    background-image: url(../img/back4.jpg);
+    background-image: url(../img/4.jpg);
     background-size:cover;
     background-position: center center;
 }
 
 #baimg5 {
-    background-image: url(../img/back5.jpg);
+    background-image: url(../img/5.jpg);
     background-size:cover;
     background-position: center center;
 }
@@ -110,3 +110,4 @@ display: none;
     position: relative;
     height: 40px;
 }
+
