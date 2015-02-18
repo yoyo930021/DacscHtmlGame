@@ -5,7 +5,6 @@ var mt=500;
 var ext= 1000;
 var hold=0; 
 var firstslidedown=0;
-var bgfirstshow=0;
 
 function bgc(){
     if(firstslidedown==0&&hold==0)
@@ -15,9 +14,6 @@ function bgc(){
     else if(con1_1==0&&con1_2==0&&con1_3==0&&hold==0)
     {
         firstslidedown=0;
-        $(".bg").hide();
-        $("#gotop").hide();
-
     }
     
 }
@@ -88,29 +84,8 @@ $("#mbody").ready(function(){
         bgc();
     });
 
-    $("#gotopb").click(function(){
-        $('html,body').stop().animate({
-            scrollTop: 0,
-        },ext);
-        return false;
-
-    });
+    
 
 
-    $(window).scroll(function(){
-        if(firstslidedown==1)
-        {
-            if($(window).scrollTop()>=475)
-            {   
-                $(".bg").fadeIn(500);
-                $("#gotop").show();
-            }
-            else
-            {
-                $(".bg").hide();
-                $("#gotop").hide();
-            }
-            
-        }
-    });
+    
 });

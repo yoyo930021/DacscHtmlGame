@@ -38,8 +38,8 @@ display: none;
 }
 #title {
 	position: absolute;
-	top: 3%;
-	left: 5%;
+	top: 0px;
+	left: 2%;
 	z-index: 2;
 }
 #groupbutton {

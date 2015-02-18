@@ -51,32 +51,32 @@ display: none;
 
 #baimg1 {
     background-image: url(../img/1.jpg);
-    background-size:cover;
+    background-size:140% 140%;
     background-position: 0px -100px;
 }
 
 #baimg2 {
     background-image: url(../img/2.jpg);
-    background-size:cover;
-    background-position: 0px -150px;
+    background-size:140% 140%;
+    background-position: 0px -120px;
 }
 
 #baimg3 {
     background-image: url(../img/3.jpg);
-    background-size: cover;
-    background-position: 0px -250px;
+    background-size: 140% 140%;
+    background-position: 0px -220px;
 }
 
 #baimg4 {
     background-image: url(../img/4.jpg);
-    background-size:cover;
-    background-position: 0px -275px;
+    background-size:140% 140%;
+    background-position: 0px -255px;
 }
 
 #baimg5 {
     background-image: url(../img/5.jpg);
-    background-size:cover;
-    background-position: 0px -200px;
+    background-size:140% 140%;
+    background-position: 0px -180px;
 }
 
 .backimg {
