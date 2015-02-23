@@ -140,6 +140,7 @@ body {
 #table1 {
     
     border: 1px solid #555555;
+
 }
 
 #table1 th {
@@ -149,16 +150,14 @@ body {
 }
 
 #table1 td {
-    width: auto;
-    height: 50px;
+    width: 400px;
+    height: auto;
     border: 1px solid #555555;
     padding: 10px;
-    font-size: 15px;
-
+    line-height: 25px;
 }
 
 #table1 td:first-child {
-    height: 25px;
     text-align: center;
     padding-top: 10px;
     width: 100px;
