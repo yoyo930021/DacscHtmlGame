@@ -1,0 +1,40 @@
+.exmenu {
+	color: white;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    font-family: 華康魏碑體;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    font-family: 華康魏碑體;
+}
+
+.ttitle1 {
+    font-size: 40px;
+}
+
+.ttitle2 {
+    font-size: 30px;
+}
+
+.tstrong {
+	font-weight: 700;
+}
+
+.setright {
+	float: right;
+}
+
+.tsize15 {
+	font-size: 15px;
+}
+
+.imgborder {
+    border: 2px solid white;
+}
+
