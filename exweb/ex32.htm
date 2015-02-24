@@ -1,44 +1,177 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/reset.css">
     <link rel="stylesheet" type="text/css" href="../css/exweb.css">
+    <link rel="stylesheet" type="text/css" href="../css/textstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/ex32.css">
     <script src="../js/jquery-1.11.2.min.js"></script>
-    <script src="../js/jquery.cycle.lite.js"></script>
-    <script src="js/exweb32.js"></script>
+    <script src="../js/chart/highcharts.js"></script>
+    <script src="../js/chart/exporting.js"></script> 
+    <script src="js/chart.js"></script>
+    <script src="../js/exweb.js"></script>
     <title>exindex</title>
 </head>
 <body >
-    <div id="mbody">
-        <div id="topmenu">
-            <div id="exmenutitle"><br>店家訪問</div>
-        </div>
-            <div id="extramenu">      
-                    <ul class="extramenu" >
-                        
+    
+    <div id="mainmenu">
+        <div id="goback"><a href="../index.htm" target="_parent">回首頁</a></div>
+        <ul class="mmenu">
+            <li>
+                <a href="#" id="mmenu6">關於我們</a>
+                <ul>
+                    <li>
+                        <a href="#" id="mmenu6_1">研究過程</a>
+                    </li>
+                    <li>
+                        <a href="#" id="mmenu6_2">隊員</a>
+                    </li>
+                    <li>
+                        <a href="#" id="mmenu6_3">指導老師</a>
+                    </li>
+                </ul>
+
+            </li>
+            <li>
+                <a href="#" id="mmenu5">淺談淡水</a>
+                <ul>
+                    <li>
+                        <a href="ex51.htm" id="mmenu5_1">淡水由來</a>
+                    </li>
+                    <li>
+                        <a href="ex52.htm" id="mmenu5_2">環境概述</a>
+                    </li>
                         <li>
-                            <a href="#contemt1_1" id="midmenu1_1">11</a>
-                            <div class="exmenu" id="content1_1">
-                            HAHAHAHAHAHAHAHAH
-
-
-                            </div>
-
-                        </li>
-                        <li>
-                            <a href="#contemt1_2" id="midmenu1_2">22</a>
-                            <div class="exmenu" id="content1_2">
-                            HAHAHAHAHAHAHAHAHxddef<br>dwdfe
-
-
-                            </div>
-
-                        </li>
-
-                    </ul>
-            </div>
+                        <a href="ex53.htm" id="mmenu5_3">知名人物</a>
+                    </li>
+                    <li>
+                        <a href="ex54.htm" id="mmenu5_4">老街歷史</a>
+                    </li>
+                </ul>
+            <li>
+                <a href="#" id="mmenu4">觀光景點</a>
+                <ul>
+                    <li>
+                        <a href="#" id="mmenu4_1">歷史古蹟</a>
+                    </li>
+                    <li>
+                        <a href="#" id="mmenu4_2">自然風光</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" id="mmenu3">探訪老街</a>
+                <ul>
+                    <li>
+                        <a href="ex31.htm" id="mmenu3_1">知名店家</a>
+                    </li>
+                    <li>
+                        <a href="ex32.htm" id="mmenu3_2">問卷統整</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="ex2.htm" id="mmenu2">位置介紹</a>
+            </li>
+            <li>
+                <a href="ex1.htm" id="mmenu1">前言</a>
+            </li>
+        </ul>
     </div>
+    <div id="shadow"></div>
+    <div class="bg" id="lbg"></div>
+    <div class="bg" id="rbg"></div>
+    <div id="mbody">
+        <div id="extramenu">      
+            <ul class="extramenu" >
+                <div id="exmenutitle"><br>問卷統整</div>
+                <li>
+                    <a href="#contemt1_1" id="midmenu1_1">&nbsp&nbsp問卷統整</a>
+                    <div class="exmenu" id="content1_1">
+                        <br><br><br>
+                        
+                        <font class="ttitle2 tstrong">
+                        問題一:
+                            <br>
+                        淡水最吸引你的地方？
+                        </font>
+                        <iframe src="https://docs.google.com/spreadsheets/d/1Vbmy_V20_1qIqIi-xGtj1-RYaPrYZAGIdPWT-b-GC7g/pubchart?oid=868205743&amp;format=interactive" height="600px" width="450px" scrolling="no" frameborder="0" id="chart1">                             
+                        </iframe>
+                        <br><br>
+                        由右圖可以得知，大部分的遊客來
+                        <br>
+                        到淡水，是因為地方特色豐富，而
+                        <br>
+                        且有得吃有得喝。
+                        <br><br><br><br><br><br><br>
+          
+                        <iframe src="https://docs.google.com/spreadsheets/d/1Vbmy_V20_1qIqIi-xGtj1-RYaPrYZAGIdPWT-b-GC7g/pubchart?oid=1432002159&amp;format=interactive" height="600px" width="500px" scrolling="no" frameborder="0" id="chart2">
+                        </iframe>
+                        <font class="ttitle2 tstrong">
+                        問題二:
+                        <br>
+                        淡水最好吃的食品？
+                        </font>
+                            
+                        <br>
+                        我們由問題一可得知，有四分之一
+                        <br>
+                        的遊客來到淡水是為了吃喝，但我
+                        <br>
+                        們想了解究竟遊客們最喜灣吃些
+                        <br>
+                        什麼？
+                        <br>
+                        由圖可以得知，大部分的遊客喜歡吃淡水魚丸，隨後便是阿給和阿婆鐵蛋，這些食品都是名副其實的淡水名產。
+                        <br><br><br><br><br>
+                        <iframe src="https://docs.google.com/spreadsheets/d/1Vbmy_V20_1qIqIi-xGtj1-RYaPrYZAGIdPWT-b-GC7g/pubchart?oid=1397820482&amp;format=interactive" height="600px" width="500px" scrolling="no" frameborder="0" id="chart3"></iframe>
+                        </iframe>
+                        <font class="ttitle2 tstrong">
+                        問題三: 
+                        <br>
+                        對於老街的認知？
+                        </font>
+                        <br>
+                        淡水作為一個歷史文化發展的重鎮，
+                        <br>
+                        有非常多的歷史古蹟在這邊，我們想
+                        <br>
+                        要了解究竟有多少人在吃的同時也
+                        <br>
+                        會去關心歷史文化。
+                        <br>
+                        由圖可以得知，大部分的人只知道紅毛城名字的由來，而全部不知道的人居然高達五分之一之多。
+                        <br><br><br><br><br>
+                        <iframe src="https://docs.google.com/spreadsheets/d/1Vbmy_V20_1qIqIi-xGtj1-RYaPrYZAGIdPWT-b-GC7g/pubchart?oid=1199387456&amp;format=interactive" height="600px" width="500px" scrolling="no" frameborder="0" id="chart4"></iframe>
+                        </iframe>
+                        <font class="ttitle2 tstrong">
+                        問題四:
+                        <br>
+                        交通滿意度？
+                        </font>
+                        <br>
+                        對於一個觀光勝地，交通是影響
+                        <br>
+                        很大的因素之一。我們想要了解
+                        <br>
+                        究竟來到淡水老街的遊客們，對
+                        <br>
+                        於淡水老街的交通到底滿意多少。
+                        <br><br>
+                        由圖可以得知，大部分遊客對於交通感到滿意，但仍然有些遊客希望老街的交通能夠得到改善。
+
+                    
+                        <br><br><br>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+        <div id="space"></div>
+    </div>
+    <div id="gotop"><a href="#" id="gotopb"></a></div>
 
 </body>
 </html>

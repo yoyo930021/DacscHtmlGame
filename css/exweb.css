@@ -12,7 +12,6 @@ body {
 	min-height: 100%;
 	min-width: 100%;
     margin: 0;
-    font-family: ; 
 }
 
 body:after {
@@ -99,7 +98,7 @@ ul.extramenu li {
     left: 5%;
 }
 
-ul.extramenu li a {
+ul.extramenu li > a {
     font-size: 40px;
     display: block;
     width: 90%;
@@ -111,7 +110,7 @@ ul.extramenu li a {
     border-bottom-width: 1px;
 }
 
-ul.extramenu li a:hover {
+ul.extramenu li  > a:hover {
     background: rgba(30%,30%,30%,0.5);
 }
 
@@ -306,3 +305,8 @@ ul.mmenu ul a:hover {
     border: 1px solid white;
 }
 
+.normallink {
+    text-decoration: underline;
+    font-size: 15px;
+    color: #00bfff;
+}

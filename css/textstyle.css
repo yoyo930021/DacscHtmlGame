@@ -1,7 +1,7 @@
 .exmenu {
 	color: white;
     font-size: 20px;
-    line-height: 60px;
+    line-height: 50px;
     letter-spacing: 1px;
     font-family: 華康魏碑體;
 }
@@ -9,7 +9,7 @@
 .text {
     color: white;
     font-size: 20px;
-    line-height: 60px;
+    line-height: 50px;
     letter-spacing: 1px;
     font-family: 華康魏碑體;
 }
@@ -21,6 +21,11 @@
 .ttitle2 {
     font-size: 30px;
 }
+
+.ttitle3 {
+    font-size: 25px;
+}
+
 
 .tstrong {
 	font-weight: 700;
@@ -48,4 +53,8 @@
 
 .tblue {
     color: blue;
+}
+
+.tyellow {
+    color: yellow;
 }

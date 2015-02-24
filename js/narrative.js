@@ -19,32 +19,32 @@ $(document).ready(function () {
             var A = $(this).scrollTop();
             if (A < y2-50) {
                 current=1;
-                $("#hdbtn1").css("text-shadow", "0px 0px 8px #f00");
-                $("#hdbtn2").css("text-shadow", "");
-                $("#hdbtn3").css("text-shadow", "");
-                $("#hdbtn4").css("text-shadow", "");
+                $("#mmenu1").css("text-shadow", "0px 0px 8px #f00");
+                $("#mmenu2").css("text-shadow", "");
+                $("#mmenu3").css("text-shadow", "");
+                $("#mmenu4").css("text-shadow", "");
             } else if (A < y3-50) {
                 current=2;
-                $("#hdbtn1").css("text-shadow", "");
-                $("#hdbtn2").css("text-shadow", "0px 0px 8px #f00");
-                $("#hdbtn3").css("text-shadow", "");
-                $("#hdbtn4").css("text-shadow", "");
+                $("#mmenu1").css("text-shadow", "");
+                $("#mmenu2").css("text-shadow", "0px 0px 8px #f00");
+                $("#mmenu3").css("text-shadow", "");
+                $("#mmenu4").css("text-shadow", "");
             } else if (A < y4-50) {
                 current=3;
-                $("#hdbtn1").css("text-shadow", "");
-                $("#hdbtn2").css("text-shadow", "");
-                $("#hdbtn3").css("text-shadow", "0px 0px 8px #f00");
-                $("#hdbtn4").css("text-shadow", "");
+                $("#mmenu1").css("text-shadow", "");
+                $("#mmenu2").css("text-shadow", "");
+                $("#mmenu3").css("text-shadow", "0px 0px 8px #f00");
+                $("#mmenu4").css("text-shadow", "");
             } else if (A < $(document).height()) {
                 current=4;
-                $("#hdbtn1").css("text-shadow", "");
-                $("#hdbtn2") .css("text-shadow", "");
-                $("#hdbtn3").css("text-shadow", "");
-                $("#hdbtn4").css("text-shadow", "0px 0px 8px #f00");
+                $("#mmenu1").css("text-shadow", "");
+                $("#mmenu2") .css("text-shadow", "");
+                $("#mmenu3").css("text-shadow", "");
+                $("#mmenu4").css("text-shadow", "0px 0px 8px #f00");
             }
     });
     
-    $("#hdbtn4").click(function () {
+    $("#mmenu4").click(function () {
         if(current!=4)
         {
            ext=500; 
@@ -56,7 +56,7 @@ $(document).ready(function () {
         return false; 
         
     });
-    $("#hdbtn3").click(function () {
+    $("#mmenu3").click(function () {
         if(current!=3)
         {
            ext=500; 
@@ -68,7 +68,7 @@ $(document).ready(function () {
         return false; 
         
     });
-    $("#hdbtn2").click(function () {
+    $("#mmenu2").click(function () {
         if(current==2)
         {
            ext=500; 
@@ -79,7 +79,7 @@ $(document).ready(function () {
         ext=1000;
         return false;  
     });
-    $("#hdbtn1").click(function () {
+    $("#mmenu1").click(function () {
         if(current==1)
         {
            ext=500; 
