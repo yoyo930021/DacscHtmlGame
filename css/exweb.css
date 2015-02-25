@@ -14,22 +14,17 @@ body {
     margin: 0;
 }
 
-body:after {
-content: url(../img/bg.jpg) url(../img/bg2.jpg);
-display: none;  
-}
 
 @font-face {
   font-family: 華康魏碑體;
-  src: url(../華康魏碑體.TTC) 
-  format("opentype");
+  src: url(../華康魏碑體.TTC);
 }
  
 
 a {
     text-decoration: none;
     text-align: center;
-    font-family: 華康魏碑體;
+    font-family: 華康魏碑體,微軟正黑體;
     color: white;
 }
 
@@ -80,6 +75,7 @@ ul,li {
     color: white;
     text-align: center;
     font-size: 60px;
+    font-family: 華康魏碑體,微軟正黑體;
 }
 
 
