@@ -59,7 +59,7 @@ ul,li {
     top: 525px;
     z-index: 11;
     height: auto;
-    background: rgba(5%,5%,5%,0.85);
+    background: rgba(0%,0%,0%,0.8);
 }
 
 #extramenu {
@@ -111,7 +111,7 @@ ul.extramenu li > a {
 }
 
 ul.extramenu li  > a:hover {
-    background: rgba(30%,30%,30%,0.5);
+    background: rgba(30%,30%,30%,0.7);
 }
 
 ul.extramenu li ul li  {
@@ -138,16 +138,7 @@ ul.extramenu li ul li  {
     top: 500px;
 }
 
-#lbg {
-    background-image: url(../img/bg.jpg);
-    background-size:cover;
-}
 
-#rbg {
-    background-image: url(../img/bg2.jpg);
-    background-size:cover;
-    left: 85%;
-}
 
 
 
@@ -245,14 +236,7 @@ ul.mmenu ul a:hover {
     background: #CCC;
 }
 
-#shadow {
-    position: absolute;
-    top: 425px;
-    width: 100%;
-    height: 100px;
-    background-image: url(../img/Gradient.png);
-    background-size: 100% 100px;
-}
+
 
 #gotop {
     z-index: 300;
@@ -309,4 +293,21 @@ ul.mmenu ul a:hover {
     text-decoration: underline;
     font-size: 15px;
     color: #00bfff;
+}
+
+#titlephoto {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 0px;
+}
+
+#shadow {
+    position: absolute;
+    top: 425px;
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/Gradient.png);
+    background-size: 100% 100px;
+    opacity:0.8;
 }

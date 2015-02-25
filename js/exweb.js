@@ -14,7 +14,6 @@ $("#mbody").ready(function(){
     con1_4=0;
     con1_5=0;
     $("#extramenu").hide();
-    $(".bg").hide();
     $("#content1_1").hide();
     $("#content1_2").hide();
     $("#content1_3").hide();
@@ -111,19 +110,14 @@ $("#mbody").ready(function(){
     $(window).scroll(function(){
                 if($(window).scrollTop()>=525)
                 {
-                   /* $(".bg").show();
-                    $(".bg").stop().animate({
-                    top: $(window).scrollTop(),
-                    },0);*/
+
                     $("#gotop").show();
                 }
                 else
                 {
-                 /*   $(".bg").stop().animate({
-                    top: 525,
-                    },0);*/
+
                     $("#gotop").hide();
-                 /*   $(".bg").hide();*/
+
                 }
     });
 
