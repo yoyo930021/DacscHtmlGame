@@ -1,0 +1,21 @@
+#img1 {
+	float: right;
+}
+
+#img2 {
+    position: absolute;
+    float: right;
+    left: 620px;
+    top: 350px;
+}
+
+#img3 {
+	float: right;
+}
+
+#imgwithtext1 {
+    float: right;
+	width: 450px;
+	height: auto;
+	line-height: 20px;
+}
