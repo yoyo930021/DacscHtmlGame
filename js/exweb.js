@@ -111,19 +111,19 @@ $("#mbody").ready(function(){
     $(window).scroll(function(){
                 if($(window).scrollTop()>=525)
                 {
-                    $(".bg").show();
+                   /* $(".bg").show();
                     $(".bg").stop().animate({
                     top: $(window).scrollTop(),
-                    },0);
+                    },0);*/
                     $("#gotop").show();
                 }
                 else
                 {
-                    $(".bg").stop().animate({
+                 /*   $(".bg").stop().animate({
                     top: 525,
-                    },0);
+                    },0);*/
                     $("#gotop").hide();
-                    $(".bg").hide();
+                 /*   $(".bg").hide();*/
                 }
     });
 

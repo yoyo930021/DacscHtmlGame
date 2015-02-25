@@ -59,7 +59,7 @@ ul,li {
     top: 525px;
     z-index: 11;
     height: auto;
-    background-color: black;
+    background: rgba(5%,5%,5%,0.85);
 }
 
 #extramenu {
@@ -86,7 +86,7 @@ ul,li {
 
 ul.extramenu {
     height: auto;
-    background-color: black; 
+   /* background-color: black; */
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
