@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/reset.css">
     <link rel="stylesheet" type="text/css" href="../css/exweb.css">
-    <link rel="stylesheet" type="text/css" href="../css/textstyle.css">
-    <link rel="stylesheet" type="text/css" href="css/ex2.css">
+    <!--<link rel="stylesheet" type="text/css" href="../css/textstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/ex2.css">-->
+	    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script src="../js/jquery.js"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script src="../js/jquery.tinyMap.min.js"></script>
     <script src="../js/exweb.js"></script>
     <title>exindex</title>
@@ -94,30 +94,8 @@
                         &nbsp&nbsp淡水老街的位置</a>
                     <div class="exmenu" id="content1_1">
                         <br><br><br>
-                        <div id="map">
-                            <script>
-                                $("#map").tinyMap({
-                                    autoLocation: false,
-                                    center: '淡水老街',
-                                    zoom: 7,
-
-                                     marker:[
-                                                {
-                                                    addr: '淡水老街',
-                                                    text: '淡水老街'
-                                                   
-                                                }
-        
-                                            ]
-
-                                });
-
-
-                            </script>
-                        </div>
-
-                        
-                        <br><br><br>
+                            <div><iframe width="800" height="600" frameborder="0" src="http://www.bing.com/maps/embed/viewer.aspx?v=3&cp=25.169060~121.441742&lvl=17&w=800&h=600&sty=r&typ=d&pp=~~25.169225~121.441699&ps=&dir=0&mkt=zh-tw&src=SHELL&form=BMEMJS"></iframe></div>
+						<br><br><br>
                     </div>
 
                 </li>
@@ -162,6 +140,5 @@
         <div id="space"></div>
     </div>
     <div id="gotop"><a href="#" id="gotopb"></a></div>
-
 </body>
 </html>
