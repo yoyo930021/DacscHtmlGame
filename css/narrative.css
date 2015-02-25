@@ -225,15 +225,16 @@ a {
 }
 
 .list2 li{
-    color: black;
-    background-color: #fdf5e6;
+    /*color: black;
+    background-color: #fdf5e6;*/
+	border:1px solid white;
     margin-top: 5px;
     width: auto;
     padding: 10px;
 }
 
 .list2 li:first-child {
-    background-color: #d2b48c;
+    /*background-color: #d2b48c;*/
     text-align: center;
 }
 
