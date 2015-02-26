@@ -4,6 +4,7 @@ $(document).ready(function () {
 	$("#groupbutton").hide();
 	$("#grtop").hide();
 	$("#title").hide();
+	$("#warming").hide();
 	//var $ofweidht = innerWidth;
 	/*if ($ofweidht <= 767) {
 		$("#mainback").hide();
@@ -24,4 +25,5 @@ function start() {
 	$("#title").fadeIn(1200);
 	$("#groupbutton").fadeIn(1000);
 	$("#grtop").fadeIn(1000);
+	$("#warming").fadeIn(1000);
 }

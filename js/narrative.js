@@ -19,28 +19,28 @@ $(document).ready(function () {
             var A = $(this).scrollTop();
             if (A < y2-50) {
                 current=1;
-                $("#mmenu1").css("text-shadow", "0px 0px 8px #f00");
+                $("#mmenu1").css("text-shadow", "0px 0px 8px red");
                 $("#mmenu2").css("text-shadow", "");
                 $("#mmenu3").css("text-shadow", "");
                 $("#mmenu4").css("text-shadow", "");
             } else if (A < y3-50) {
                 current=2;
                 $("#mmenu1").css("text-shadow", "");
-                $("#mmenu2").css("text-shadow", "0px 0px 8px #f00");
+                $("#mmenu2").css("text-shadow", "0px 0px 8px red");
                 $("#mmenu3").css("text-shadow", "");
                 $("#mmenu4").css("text-shadow", "");
             } else if (A < y4-50) {
                 current=3;
                 $("#mmenu1").css("text-shadow", "");
                 $("#mmenu2").css("text-shadow", "");
-                $("#mmenu3").css("text-shadow", "0px 0px 8px #f00");
+                $("#mmenu3").css("text-shadow", "0px 0px 8px red");
                 $("#mmenu4").css("text-shadow", "");
             } else if (A < $(document).height()) {
                 current=4;
                 $("#mmenu1").css("text-shadow", "");
                 $("#mmenu2") .css("text-shadow", "");
                 $("#mmenu3").css("text-shadow", "");
-                $("#mmenu4").css("text-shadow", "0px 0px 8px #f00");
+                $("#mmenu4").css("text-shadow", "0px 0px 8px red");
             }
     });
     

@@ -111,3 +111,18 @@ display: none;
     height: 40px;
 }
 
+#warming {
+	font-family: 華康魏碑體,微軟正黑體;
+	font-size: 20px;
+	z-index: 10;
+	padding: 10px;
+	position: absolute;
+	height: auto;
+	width: 300px;
+	top: 580px;
+	left: 920px;
+	border: 2px solid red;
+	background: rgba(5%,5%,5%,0.7);
+	color: white;
+}
+
