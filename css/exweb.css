@@ -118,9 +118,7 @@ ul.extramenu li ul li  {
 .exmenu {
     position: relative;
     width: 90%;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: red;
+
     height: auto;
 }
 
